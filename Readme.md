@@ -41,12 +41,10 @@ Add the configuration to your Cursor settings:
 
 ```json
 {
-  "mcp": {
-    "servers": {
-      "aceternityui": {
+  "mcpServers": {
+    "aceternityui": {
         "command": "npx aceternityui-mcp"
       }
-    }
   }
 }
 ```
@@ -59,8 +57,8 @@ Add the configuration to your Windsurf settings:
 {
   "mcpServers": {
     "aceternityui": {
-      "command": "npx/node",
-      "args": ["path/to/aceternityui-mcp/dist/index.js"]
+      "command": "npx",
+      "args": ["aceternityui-mcp"]
     }
   }
 }
