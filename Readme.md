@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/rudra016-aceternityui-mcp-badge.png)](https://mseep.ai/app/rudra016-aceternityui-mcp)
+
 # Aceternity UI MCP
 
 A **Model Context Protocol (MCP)** server that provides seamless integration with the Aceternity UI component registry. This package enables AI assistants and applications to search, discover, and install Aceternity UI components programmatically.
