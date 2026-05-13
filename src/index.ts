@@ -66,7 +66,7 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
 async function main() {
   const transport = new StdioServerTransport();
   await server.connect(transport);
-  console.log("Aceternity UI MCP server is running...");
+  console.error("Aceternity UI MCP server is running...");
 }
 
 main().catch((error) => {
